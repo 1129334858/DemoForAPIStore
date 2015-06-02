@@ -20,8 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com/"]];
     UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0.0, 0.0, KScreenWidth, KScreenHeight-64)];
-    
+    [webView loadRequest:req];
+    webView.scalesPageToFit = YES;
+    [self.view addSubview:webView];
     
     _recviceData = [[NSMutableData alloc] init];
     NSString *urlString = [NSString stringWithFormat:@"http://www.baidu.com"];
