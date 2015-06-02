@@ -21,6 +21,7 @@
 
 - (instancetype)init{
     if (self) {
+        
 //        _globalModel = [[GlobalModel alloc] init];
     }
     return self;
