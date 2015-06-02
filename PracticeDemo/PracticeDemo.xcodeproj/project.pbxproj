@@ -40,6 +40,7 @@
 		5BA9968F1B1BF1F600B75D94 /* PracticeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9968E1B1BF1F600B75D94 /* PracticeDemoTests.m */; };
 		5BA9969B1B1BF3DE00B75D94 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9969A1B1BF3DE00B75D94 /* Singleton.m */; };
 		5BA996A01B1BF40B00B75D94 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9969F1B1BF40B00B75D94 /* Constant.m */; };
+		5BC272E71B1D438600EA1AA3 /* NextOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC272E61B1D438600EA1AA3 /* NextOneViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +116,8 @@
 		5BA9969A1B1BF3DE00B75D94 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 		5BA9969E1B1BF40B00B75D94 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		5BA9969F1B1BF40B00B75D94 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		5BC272E51B1D438600EA1AA3 /* NextOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextOneViewController.h; sourceTree = "<group>"; };
+		5BC272E61B1D438600EA1AA3 /* NextOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextOneViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +247,8 @@
 				5BA996771B1BF1F600B75D94 /* AppDelegate.m */,
 				5BA996791B1BF1F600B75D94 /* ViewController.h */,
 				5BA9967A1B1BF1F600B75D94 /* ViewController.m */,
+				5BC272E51B1D438600EA1AA3 /* NextOneViewController.h */,
+				5BC272E61B1D438600EA1AA3 /* NextOneViewController.m */,
 				5B10CB781B1C251A006DFA1E /* HomeViewController.h */,
 				5B10CB791B1C251A006DFA1E /* HomeViewController.m */,
 				5BA9967C1B1BF1F600B75D94 /* Main.storyboard */,
@@ -447,6 +452,7 @@
 				5B10CB511B1C0CC5006DFA1E /* AFHTTPRequestOperationManager.m in Sources */,
 				5B10CB5D1B1C0CC5006DFA1E /* FMResultSet.m in Sources */,
 				5B10CB5B1B1C0CC5006DFA1E /* FMDatabasePool.m in Sources */,
+				5BC272E71B1D438600EA1AA3 /* NextOneViewController.m in Sources */,
 				5B10CB7A1B1C251A006DFA1E /* HomeViewController.m in Sources */,
 				5B10CB541B1C0CC5006DFA1E /* AFSecurityPolicy.m in Sources */,
 				5B10CB571B1C0CC5006DFA1E /* AFURLResponseSerialization.m in Sources */,
