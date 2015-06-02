@@ -7,6 +7,8 @@
 //
 
 #import "NextOneViewController.h"
+#import "NextTwoViewController.h"
+#import "UIViewController+specialNav.h"
 #import "Constant.h"
 
 @interface NextOneViewController ()<NSURLConnectionDataDelegate,NSURLConnectionDelegate>
@@ -19,6 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self createNavigationRightButton:@"next" imageName:nil selector:@selector(nextViewController)];
     
     NSURLRequest *req = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com/"]];
     UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0.0, 0.0, KScreenWidth, KScreenHeight-64)];
@@ -46,6 +49,11 @@
     [connection start];
     
     // Do any additional setup after loading the view.
+}
+
+- (void)nextViewController{
+    NextTwoViewController *nextViewController = [[NextTwoViewController alloc] init];
+    [self.navigationController pushViewController:nextViewController animated:YES];
 }
 
 #pragma mark - NSUrlConnection delegate

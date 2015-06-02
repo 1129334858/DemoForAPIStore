@@ -41,6 +41,11 @@
 		5BA9969B1B1BF3DE00B75D94 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9969A1B1BF3DE00B75D94 /* Singleton.m */; };
 		5BA996A01B1BF40B00B75D94 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA9969F1B1BF40B00B75D94 /* Constant.m */; };
 		5BC272E71B1D438600EA1AA3 /* NextOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC272E61B1D438600EA1AA3 /* NextOneViewController.m */; };
+		5BC272EA1B1D7BA000EA1AA3 /* NextTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC272E91B1D7BA000EA1AA3 /* NextTwoViewController.m */; };
+		5BC272ED1B1D80AA00EA1AA3 /* FirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC272EC1B1D80AA00EA1AA3 /* FirstCell.m */; };
+		5BC272F01B1D853000EA1AA3 /* SecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC272EF1B1D853000EA1AA3 /* SecondCell.m */; };
+		5BC272F31B1D8EE900EA1AA3 /* SelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC272F21B1D8EE900EA1AA3 /* SelectCell.m */; };
+		5BC272F61B1DB8D600EA1AA3 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC272F51B1DB8D600EA1AA3 /* SelectViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,6 +123,16 @@
 		5BA9969F1B1BF40B00B75D94 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
 		5BC272E51B1D438600EA1AA3 /* NextOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextOneViewController.h; sourceTree = "<group>"; };
 		5BC272E61B1D438600EA1AA3 /* NextOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextOneViewController.m; sourceTree = "<group>"; };
+		5BC272E81B1D7BA000EA1AA3 /* NextTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextTwoViewController.h; sourceTree = "<group>"; };
+		5BC272E91B1D7BA000EA1AA3 /* NextTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextTwoViewController.m; sourceTree = "<group>"; };
+		5BC272EB1B1D80AA00EA1AA3 /* FirstCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstCell.h; sourceTree = "<group>"; };
+		5BC272EC1B1D80AA00EA1AA3 /* FirstCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstCell.m; sourceTree = "<group>"; };
+		5BC272EE1B1D853000EA1AA3 /* SecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondCell.h; sourceTree = "<group>"; };
+		5BC272EF1B1D853000EA1AA3 /* SecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondCell.m; sourceTree = "<group>"; };
+		5BC272F11B1D8EE900EA1AA3 /* SelectCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCell.h; sourceTree = "<group>"; };
+		5BC272F21B1D8EE900EA1AA3 /* SelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCell.m; sourceTree = "<group>"; };
+		5BC272F41B1DB8D600EA1AA3 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		5BC272F51B1DB8D600EA1AA3 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +228,12 @@
 				5B10CB7D1B1C2824006DFA1E /* CommonNavViewController.m */,
 				5B10CB801B1C3292006DFA1E /* UIViewController+specialNav.h */,
 				5B10CB811B1C3292006DFA1E /* UIViewController+specialNav.m */,
+				5BC272EB1B1D80AA00EA1AA3 /* FirstCell.h */,
+				5BC272EC1B1D80AA00EA1AA3 /* FirstCell.m */,
+				5BC272EE1B1D853000EA1AA3 /* SecondCell.h */,
+				5BC272EF1B1D853000EA1AA3 /* SecondCell.m */,
+				5BC272F11B1D8EE900EA1AA3 /* SelectCell.h */,
+				5BC272F21B1D8EE900EA1AA3 /* SelectCell.m */,
 			);
 			name = common;
 			sourceTree = "<group>";
@@ -249,6 +270,10 @@
 				5BA9967A1B1BF1F600B75D94 /* ViewController.m */,
 				5BC272E51B1D438600EA1AA3 /* NextOneViewController.h */,
 				5BC272E61B1D438600EA1AA3 /* NextOneViewController.m */,
+				5BC272E81B1D7BA000EA1AA3 /* NextTwoViewController.h */,
+				5BC272E91B1D7BA000EA1AA3 /* NextTwoViewController.m */,
+				5BC272F41B1DB8D600EA1AA3 /* SelectViewController.h */,
+				5BC272F51B1DB8D600EA1AA3 /* SelectViewController.m */,
 				5B10CB781B1C251A006DFA1E /* HomeViewController.h */,
 				5B10CB791B1C251A006DFA1E /* HomeViewController.m */,
 				5BA9967C1B1BF1F600B75D94 /* Main.storyboard */,
@@ -438,9 +463,11 @@
 				5B10CB6B1B1C0CC5006DFA1E /* MBProgressHUD.m in Sources */,
 				5BA9969B1B1BF3DE00B75D94 /* Singleton.m in Sources */,
 				5B10CB531B1C0CC5006DFA1E /* AFNetworkReachabilityManager.m in Sources */,
+				5BC272ED1B1D80AA00EA1AA3 /* FirstCell.m in Sources */,
 				5B10CB5A1B1C0CC5006DFA1E /* FMDatabaseAdditions.m in Sources */,
 				5B10CB821B1C3292006DFA1E /* UIViewController+specialNav.m in Sources */,
 				5B10CB7E1B1C2824006DFA1E /* CommonNavViewController.m in Sources */,
+				5BC272EA1B1D7BA000EA1AA3 /* NextTwoViewController.m in Sources */,
 				5B10CB6A1B1C0CC5006DFA1E /* MBProgressHUD+Add.m in Sources */,
 				5BA996781B1BF1F600B75D94 /* AppDelegate.m in Sources */,
 				5B10CB551B1C0CC5006DFA1E /* AFURLConnectionOperation.m in Sources */,
@@ -449,12 +476,15 @@
 				5B10CB5C1B1C0CC5006DFA1E /* FMDatabaseQueue.m in Sources */,
 				5BA996A01B1BF40B00B75D94 /* Constant.m in Sources */,
 				5BA996751B1BF1F600B75D94 /* main.m in Sources */,
+				5BC272F61B1DB8D600EA1AA3 /* SelectViewController.m in Sources */,
 				5B10CB511B1C0CC5006DFA1E /* AFHTTPRequestOperationManager.m in Sources */,
 				5B10CB5D1B1C0CC5006DFA1E /* FMResultSet.m in Sources */,
 				5B10CB5B1B1C0CC5006DFA1E /* FMDatabasePool.m in Sources */,
 				5BC272E71B1D438600EA1AA3 /* NextOneViewController.m in Sources */,
 				5B10CB7A1B1C251A006DFA1E /* HomeViewController.m in Sources */,
+				5BC272F01B1D853000EA1AA3 /* SecondCell.m in Sources */,
 				5B10CB541B1C0CC5006DFA1E /* AFSecurityPolicy.m in Sources */,
+				5BC272F31B1D8EE900EA1AA3 /* SelectCell.m in Sources */,
 				5B10CB571B1C0CC5006DFA1E /* AFURLResponseSerialization.m in Sources */,
 				5B10CB501B1C0CC5006DFA1E /* AFHTTPRequestOperation.m in Sources */,
 				5B10CB591B1C0CC5006DFA1E /* FMDatabase.m in Sources */,
