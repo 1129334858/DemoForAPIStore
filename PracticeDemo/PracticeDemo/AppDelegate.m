@@ -10,6 +10,8 @@
 #import "ViewController.h"
 #import "HomeViewController.h"
 #import "Constant.h"
+#import "UMSocial.h"
+#import "UMSocialWechatHandler.h"
 
 @interface AppDelegate ()
 
@@ -17,14 +19,28 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window makeKeyAndVisible];
     ViewController *vc = [[ViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
+    
+    //隐藏没有安装的应用程序
+    [UMSocialConfig hiddenNotInstallPlatforms: @[UMShareToQQ, UMShareToQzone, UMShareToWechatTimeline]];
+    
+    [UMSocialData setAppKey:@"53290df956240b6b4a0084b3"];
+    
+    //打印日志
+    [UMSocialData openLog:YES];
+    
+    //支持横竖屏操作
+    [UMSocialConfig setSupportedInterfaceOrientations:UIInterfaceOrientationMaskAll];
+    
+    [UMSocialWechatHandler setWXAppId:@"wxd930ea5d5a258f4f" appSecret:@"db426a9829e4b49a0dcac7b4162da6b6" url:nil];
+    
     return YES;
 }
 
@@ -42,6 +58,13 @@
         navigation.navigationBar.translucent = NO;
     }
     return navigation;
+}
+
+/**
+    这里处理新浪微博SSO授权之后跳转回来，和微信分享完成之后跳转回来
+ */
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    return [UMSocialSnsService handleOpenURL:url wxApiDelegate:nil];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

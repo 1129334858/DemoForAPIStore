@@ -8,6 +8,8 @@
 
 #import "CommonNavViewController.h"
 
+typedef void(^SelectBlock) (NSString *text);
 @interface SelectViewController : CommonNavViewController
 
+@property (nonatomic,strong) SelectBlock selectBlock;
 @end

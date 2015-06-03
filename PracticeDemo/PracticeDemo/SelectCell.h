@@ -11,5 +11,6 @@
 @interface SelectCell : UITableViewCell
 
 @property (nonatomic,strong) UILabel *label;
+@property (nonatomic,strong) UILabel *addLabel;
 
 @end

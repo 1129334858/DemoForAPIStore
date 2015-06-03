@@ -8,10 +8,11 @@
 
 #import "NextTwoViewController.h"
 #import "UIViewController+specialNav.h"
-#import "Constant.h"
+//#import "Constant.h"
 #import "FirstCell.h"
 #import "SecondCell.h"
 #import "SelectCell.h"
+#import "SelectViewController.h"
 
 @interface NextTwoViewController ()<UITableViewDataSource,UITableViewDelegate,UITextFieldDelegate>
 {
@@ -30,8 +31,13 @@
     _threeIsOn = true;
     [self setUpUi];
     [self createNavigationTitle:@"2015届毕业状况信息采集"];
+    [self createNavigationLeftButton:@"返回" imageName:nil selector:@selector(back)];
     _dataArray = [NSMutableArray arrayWithObjects:@[@"姓名",@"籍贯",@"政治面貌",@"英语水平",@"专业"],@[@"是否毕业",@"毕业院校"],@[@"是否就业",@"实习",@"转正"],@[@"就业城市"], nil];
     // Do any additional setup after loading the view.
+}
+
+- (void)back{
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)setUpUi{
@@ -70,7 +76,11 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
-    return 20;
+    if (section==3) {
+        return 40;
+    }else{
+        return 20;
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -128,9 +138,27 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.section==3) {
         if (indexPath.row==0) {
-            
+            SelectViewController *selectVc = [[SelectViewController alloc] init];
+            selectVc.selectBlock = ^(NSString *text){
+                SelectCell *cell = (SelectCell*)[tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:3]];
+                cell.addLabel.text = text;
+            };
+            [self.navigationController pushViewController:selectVc animated:YES];
         }
     }
+}
+
+- (UIView *)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
+    UIButton *btn;
+    if (section==3) {
+        btn = [[UIButton alloc] initWithFrame:CGRectMake(30, 0.0, KScreenWidth-60, 40)];
+        [btn setTitle:@"提交" forState:UIControlStateNormal];
+        [btn setTitleColor:RGB(255, 255, 255) forState:UIControlStateNormal];
+        [btn setBackgroundColor:RGB(100, 100, 100)];
+        btn.titleLabel.font = [UIFont systemFontOfSize:15.0f];
+    }
+    return btn;
+
 }
 
 - (void)switchOnOrOff{

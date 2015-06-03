@@ -36,6 +36,8 @@
         return;
     }
     NSURLCache *urlCache = [NSURLCache sharedURLCache];
+    //设置缓存的大小
+    [urlCache setMemoryCapacity:1*1024*1024];
     NSURL *url = [NSURL URLWithString:urlString];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:20];
     

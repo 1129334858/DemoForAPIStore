@@ -7,6 +7,7 @@
 //
 
 #import "SelectCell.h"
+#import "Constant.h"
 
 @implementation SelectCell
 
@@ -17,7 +18,12 @@
         _label.backgroundColor = [UIColor clearColor];
         _label.font = [UIFont systemFontOfSize:15.0f];
         
+        _addLabel = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(_label.frame)+15, 0, KScreenWidth-CGRectGetMaxX(_label.frame)-15, CGRectGetHeight(_label.frame))];
+        _addLabel.backgroundColor = [UIColor clearColor];
+        _addLabel.font = [UIFont systemFontOfSize:15.0f];
+        
         [self.contentView addSubview:_label];
+        [self.contentView addSubview:_addLabel];
     }
     return self;
 }

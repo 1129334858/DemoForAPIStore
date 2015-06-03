@@ -10,6 +10,7 @@
 #import "Constant.h"
 #import "UIViewController+specialNav.h"
 #import "NextOneViewController.h"
+#import "ShareViewController.h"
 
 @interface ViewController ()
 {
@@ -29,6 +30,7 @@
     [super viewDidLoad];
     [self createNavigationTitle:@"网易新闻"];
     [self createNavigationRightButton:@"next" imageName:nil selector:@selector(nextController)];
+    [self createNavigationLeftButton:@"other" imageName:nil selector:@selector(shareController)];
     
     self.view.backgroundColor = [UIColor whiteColor];
     _label = [[UILabel alloc] initWithFrame:CGRectMake(KScreenWidth/2-200/2, 100, 200, 1)];
@@ -37,6 +39,11 @@
     timer = [NSTimer scheduledTimerWithTimeInterval:.02 target:self selector:@selector(animation1) userInfo:nil repeats:YES];
     [self setUpUi];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)shareController{
+    ShareViewController *shareVc = [[ShareViewController alloc] init];
+    [self.navigationController pushViewController:shareVc animated:YES];
 }
 
 - (void)nextController{
