@@ -12,7 +12,7 @@
 @implementation UIViewController (specialNav)
 
 - (void)createNavigationTitle:(NSString*)title{
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(KScreenWidth/2-150/2, 0, 150, 44)];
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(KScreenWidth/2-200/2, 0, 200, 44)];
     view.backgroundColor = [UIColor clearColor];
     UILabel *label = [[UILabel alloc] initWithFrame:view.bounds];
     label.textColor = RGB(255, 255, 255);
@@ -39,16 +39,18 @@
 }
 
 - (void)createNavigationRightButton:(NSString *)title imageName:(NSString *)imageName selector:(SEL)selector{
-    UIButton *rightBtn = [[UIButton alloc] initWithFrame:CGRectMake(0.0, 0.0, 70, 30)];
+    UIButton *rightBtn = [[UIButton alloc] initWithFrame:CGRectMake(0.0, 0.0, 70, 50)];
     rightBtn.backgroundColor = [UIColor clearColor];
     [rightBtn addTarget:self action:selector forControlEvents:UIControlEventTouchUpInside];
     if (title && [title length]>0) {
         [rightBtn setTitleColor:RGB(255, 255, 255) forState:UIControlStateNormal];
         [rightBtn setTitle:title forState:UIControlStateNormal];
         rightBtn.titleLabel.font = [UIFont systemFontOfSize:15.0f];
+        rightBtn.titleEdgeInsets = UIEdgeInsetsMake(0.0, 0.0, 0.0, IOS7?-20:-10);
     }
     if (imageName && [imageName length]>0) {
         [rightBtn setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+        [rightBtn setImageEdgeInsets:UIEdgeInsetsMake(0.0, 0.0, 0.0, IOS7?-30:10)];
     }
     UIBarButtonItem *rightBarBtn = [[UIBarButtonItem alloc] initWithCustomView:rightBtn];
     self.navigationItem.rightBarButtonItem = rightBarBtn;

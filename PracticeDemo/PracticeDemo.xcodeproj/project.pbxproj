@@ -78,6 +78,32 @@
 		5BCA7EB91B1ED97D00AEDD0A /* libUMSocial_Sdk_Shake_1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCA7EA81B1ED97C00AEDD0A /* libUMSocial_Sdk_Shake_1.0.a */; };
 		5BCA7EBA1B1ED97D00AEDD0A /* libSocialWechat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCA7EAB1B1ED97C00AEDD0A /* libSocialWechat.a */; };
 		5BCA7EBB1B1ED97D00AEDD0A /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCA7EAC1B1ED97C00AEDD0A /* libWeChatSDK.a */; };
+		5BD9D5FB1B1FE2A100436DC9 /* NetworkItemBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D5FA1B1FE2A100436DC9 /* NetworkItemBase.m */; };
+		5BD9D5FE1B1FE2F800436DC9 /* NetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D5FD1B1FE2F800436DC9 /* NetworkOperation.m */; };
+		5BD9D6211B1FE75F00436DC9 /* JSONModel+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6081B1FE75F00436DC9 /* JSONModel+CoreData.m */; };
+		5BD9D6221B1FE75F00436DC9 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D60A1B1FE75F00436DC9 /* JSONModel.m */; };
+		5BD9D6231B1FE75F00436DC9 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D60C1B1FE75F00436DC9 /* JSONModelArray.m */; };
+		5BD9D6241B1FE75F00436DC9 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D60E1B1FE75F00436DC9 /* JSONModelClassProperty.m */; };
+		5BD9D6251B1FE75F00436DC9 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6101B1FE75F00436DC9 /* JSONModelError.m */; };
+		5BD9D6261B1FE75F00436DC9 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6131B1FE75F00436DC9 /* NSArray+JSONModel.m */; };
+		5BD9D6271B1FE75F00436DC9 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6171B1FE75F00436DC9 /* JSONAPI.m */; };
+		5BD9D6281B1FE75F00436DC9 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6191B1FE75F00436DC9 /* JSONHTTPClient.m */; };
+		5BD9D6291B1FE75F00436DC9 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D61B1B1FE75F00436DC9 /* JSONModel+networking.m */; };
+		5BD9D62A1B1FE75F00436DC9 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D61E1B1FE75F00436DC9 /* JSONKeyMapper.m */; };
+		5BD9D62B1B1FE75F00436DC9 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6201B1FE75F00436DC9 /* JSONValueTransformer.m */; };
+		5BD9D62E1B1FE77E00436DC9 /* GlobalModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D62D1B1FE77E00436DC9 /* GlobalModel.m */; };
+		5BD9D6341B201AED00436DC9 /* TKAlertCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6311B201AED00436DC9 /* TKAlertCenter.m */; };
+		5BD9D6351B201AED00436DC9 /* UIView+TKCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6331B201AED00436DC9 /* UIView+TKCategory.m */; };
+		5BD9D6541B20417300436DC9 /* CAAnimation+PKIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D63A1B20417300436DC9 /* CAAnimation+PKIdentifier.m */; };
+		5BD9D6551B20417300436DC9 /* CALayer+PKConvenienceAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D63C1B20417300436DC9 /* CALayer+PKConvenienceAnimations.m */; };
+		5BD9D6561B20417300436DC9 /* NSObject+PKBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D63E1B20417300436DC9 /* NSObject+PKBlocks.m */; };
+		5BD9D6571B20417300436DC9 /* UIViewController+PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6401B20417300436DC9 /* UIViewController+PKRevealController.m */; };
+		5BD9D6581B20417300436DC9 /* PKRevealControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6431B20417300436DC9 /* PKRevealControllerView.m */; };
+		5BD9D6591B20417300436DC9 /* PKAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6481B20417300436DC9 /* PKAnimation.m */; };
+		5BD9D65A1B20417300436DC9 /* PKLayerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D64A1B20417300436DC9 /* PKLayerAnimator.m */; };
+		5BD9D65B1B20417300436DC9 /* PKSequentialAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D64C1B20417300436DC9 /* PKSequentialAnimation.m */; };
+		5BD9D65C1B20417300436DC9 /* PKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D64F1B20417300436DC9 /* PKLog.m */; };
+		5BD9D65D1B20417300436DC9 /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6531B20417300436DC9 /* PKRevealController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -230,6 +256,61 @@
 		5BCA7EAD1B1ED97C00AEDD0A /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialWechatHandler.h; sourceTree = "<group>"; };
 		5BCA7EAE1B1ED97C00AEDD0A /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
 		5BCA7EAF1B1ED97C00AEDD0A /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		5BD9D5F91B1FE2A100436DC9 /* NetworkItemBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkItemBase.h; sourceTree = "<group>"; };
+		5BD9D5FA1B1FE2A100436DC9 /* NetworkItemBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkItemBase.m; sourceTree = "<group>"; };
+		5BD9D5FC1B1FE2F800436DC9 /* NetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkOperation.h; sourceTree = "<group>"; };
+		5BD9D5FD1B1FE2F800436DC9 /* NetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkOperation.m; sourceTree = "<group>"; };
+		5BD9D6071B1FE75F00436DC9 /* JSONModel+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+CoreData.h"; sourceTree = "<group>"; };
+		5BD9D6081B1FE75F00436DC9 /* JSONModel+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+CoreData.m"; sourceTree = "<group>"; };
+		5BD9D6091B1FE75F00436DC9 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		5BD9D60A1B1FE75F00436DC9 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		5BD9D60B1B1FE75F00436DC9 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		5BD9D60C1B1FE75F00436DC9 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		5BD9D60D1B1FE75F00436DC9 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		5BD9D60E1B1FE75F00436DC9 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		5BD9D60F1B1FE75F00436DC9 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		5BD9D6101B1FE75F00436DC9 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		5BD9D6121B1FE75F00436DC9 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		5BD9D6131B1FE75F00436DC9 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		5BD9D6141B1FE75F00436DC9 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		5BD9D6161B1FE75F00436DC9 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		5BD9D6171B1FE75F00436DC9 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		5BD9D6181B1FE75F00436DC9 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		5BD9D6191B1FE75F00436DC9 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		5BD9D61A1B1FE75F00436DC9 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		5BD9D61B1B1FE75F00436DC9 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		5BD9D61D1B1FE75F00436DC9 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		5BD9D61E1B1FE75F00436DC9 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		5BD9D61F1B1FE75F00436DC9 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		5BD9D6201B1FE75F00436DC9 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		5BD9D62C1B1FE77E00436DC9 /* GlobalModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalModel.h; sourceTree = "<group>"; };
+		5BD9D62D1B1FE77E00436DC9 /* GlobalModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalModel.m; sourceTree = "<group>"; };
+		5BD9D6301B201AED00436DC9 /* TKAlertCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKAlertCenter.h; sourceTree = "<group>"; };
+		5BD9D6311B201AED00436DC9 /* TKAlertCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKAlertCenter.m; sourceTree = "<group>"; };
+		5BD9D6321B201AED00436DC9 /* UIView+TKCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TKCategory.h"; sourceTree = "<group>"; };
+		5BD9D6331B201AED00436DC9 /* UIView+TKCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKCategory.m"; sourceTree = "<group>"; };
+		5BD9D6391B20417300436DC9 /* CAAnimation+PKIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+PKIdentifier.h"; sourceTree = "<group>"; };
+		5BD9D63A1B20417300436DC9 /* CAAnimation+PKIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+PKIdentifier.m"; sourceTree = "<group>"; };
+		5BD9D63B1B20417300436DC9 /* CALayer+PKConvenienceAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PKConvenienceAnimations.h"; sourceTree = "<group>"; };
+		5BD9D63C1B20417300436DC9 /* CALayer+PKConvenienceAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PKConvenienceAnimations.m"; sourceTree = "<group>"; };
+		5BD9D63D1B20417300436DC9 /* NSObject+PKBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PKBlocks.h"; sourceTree = "<group>"; };
+		5BD9D63E1B20417300436DC9 /* NSObject+PKBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PKBlocks.m"; sourceTree = "<group>"; };
+		5BD9D63F1B20417300436DC9 /* UIViewController+PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PKRevealController.h"; sourceTree = "<group>"; };
+		5BD9D6401B20417300436DC9 /* UIViewController+PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PKRevealController.m"; sourceTree = "<group>"; };
+		5BD9D6421B20417300436DC9 /* PKRevealControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealControllerView.h; sourceTree = "<group>"; };
+		5BD9D6431B20417300436DC9 /* PKRevealControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealControllerView.m; sourceTree = "<group>"; };
+		5BD9D6461B20417300436DC9 /* PKAnimating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAnimating.h; sourceTree = "<group>"; };
+		5BD9D6471B20417300436DC9 /* PKAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKAnimation.h; sourceTree = "<group>"; };
+		5BD9D6481B20417300436DC9 /* PKAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKAnimation.m; sourceTree = "<group>"; };
+		5BD9D6491B20417300436DC9 /* PKLayerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLayerAnimator.h; sourceTree = "<group>"; };
+		5BD9D64A1B20417300436DC9 /* PKLayerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLayerAnimator.m; sourceTree = "<group>"; };
+		5BD9D64B1B20417300436DC9 /* PKSequentialAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKSequentialAnimation.h; sourceTree = "<group>"; };
+		5BD9D64C1B20417300436DC9 /* PKSequentialAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKSequentialAnimation.m; sourceTree = "<group>"; };
+		5BD9D64E1B20417300436DC9 /* PKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKLog.h; sourceTree = "<group>"; };
+		5BD9D64F1B20417300436DC9 /* PKLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKLog.m; sourceTree = "<group>"; };
+		5BD9D6511B20417300436DC9 /* PKRevealController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PKRevealController-Prefix.pch"; sourceTree = "<group>"; };
+		5BD9D6521B20417300436DC9 /* PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealController.h; sourceTree = "<group>"; };
+		5BD9D6531B20417300436DC9 /* PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -357,19 +438,7 @@
 		5BA996661B1BF1F600B75D94 = {
 			isa = PBXGroup;
 			children = (
-				5BCA7E8A1B1ED97C00AEDD0A /* UMSocial_Sdk_Extra_Frameworks */,
-				5BCA7E851B1EAD3900AEDD0A /* libz.dylib */,
-				5BCA7E831B1EAD3000AEDD0A /* libstdc++.dylib */,
-				5BCA7E811B1EAD2300AEDD0A /* CoreTelephony.framework */,
-				5BCA7E7F1B1EAD1900AEDD0A /* libsqlite3.dylib */,
-				5BCA7E7D1B1EAD0700AEDD0A /* CoreGraphics.framework */,
-				5BCA7E7B1B1EACFA00AEDD0A /* libiconv.dylib */,
-				5BCA7E791B1EACE800AEDD0A /* Security.framework */,
-				5BCA7E531B1EAC8500AEDD0A /* UMSocial_Sdk_4.2.3 */,
-				5B10CB761B1C105B006DFA1E /* libsqlite3.0.dylib */,
-				5B10CB741B1C0F8E006DFA1E /* SystemConfiguration.framework */,
-				5B10CAFA1B1C0BDF006DFA1E /* Foundation.framework */,
-				5B10CAF81B1C0B4B006DFA1E /* UIKit.framework */,
+				5BD9D6361B202E3400436DC9 /* framework */,
 				5BA996711B1BF1F600B75D94 /* PracticeDemo */,
 				5BA9968B1B1BF1F600B75D94 /* PracticeDemoTests */,
 				5BA996701B1BF1F600B75D94 /* Products */,
@@ -441,6 +510,7 @@
 		5BA996981B1BF2A800B75D94 /* components */ = {
 			isa = PBXGroup;
 			children = (
+				5BD9D5F81B1FE27600436DC9 /* netWork */,
 				5B10CB7B1B1C27F4006DFA1E /* common */,
 				5BA996A21B1BF7AF00B75D94 /* thirdParty */,
 				5BA996A11B1BF6EA00B75D94 /* Models */,
@@ -471,6 +541,8 @@
 		5BA996A11B1BF6EA00B75D94 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5BD9D62C1B1FE77E00436DC9 /* GlobalModel.h */,
+				5BD9D62D1B1FE77E00436DC9 /* GlobalModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -478,6 +550,9 @@
 		5BA996A21B1BF7AF00B75D94 /* thirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				5BD9D6371B20417300436DC9 /* PKRevealController */,
+				5BD9D62F1B201AED00436DC9 /* TKAlert */,
+				5BD9D6051B1FE75F00436DC9 /* JSONModel */,
 				5B10CAFC1B1C0CC5006DFA1E /* AFNetworking */,
 				5B10CB101B1C0CC5006DFA1E /* FMDatabase */,
 				5B10CB1B1B1C0CC5006DFA1E /* JPush */,
@@ -624,6 +699,187 @@
 			path = Wechat;
 			sourceTree = "<group>";
 		};
+		5BD9D5F81B1FE27600436DC9 /* netWork */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D5F91B1FE2A100436DC9 /* NetworkItemBase.h */,
+				5BD9D5FA1B1FE2A100436DC9 /* NetworkItemBase.m */,
+				5BD9D5FC1B1FE2F800436DC9 /* NetworkOperation.h */,
+				5BD9D5FD1B1FE2F800436DC9 /* NetworkOperation.m */,
+			);
+			name = netWork;
+			sourceTree = "<group>";
+		};
+		5BD9D6051B1FE75F00436DC9 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D6061B1FE75F00436DC9 /* JSONModel */,
+				5BD9D6111B1FE75F00436DC9 /* JSONModelCategories */,
+				5BD9D6141B1FE75F00436DC9 /* JSONModelLib.h */,
+				5BD9D6151B1FE75F00436DC9 /* JSONModelNetworking */,
+				5BD9D61C1B1FE75F00436DC9 /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		5BD9D6061B1FE75F00436DC9 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D6071B1FE75F00436DC9 /* JSONModel+CoreData.h */,
+				5BD9D6081B1FE75F00436DC9 /* JSONModel+CoreData.m */,
+				5BD9D6091B1FE75F00436DC9 /* JSONModel.h */,
+				5BD9D60A1B1FE75F00436DC9 /* JSONModel.m */,
+				5BD9D60B1B1FE75F00436DC9 /* JSONModelArray.h */,
+				5BD9D60C1B1FE75F00436DC9 /* JSONModelArray.m */,
+				5BD9D60D1B1FE75F00436DC9 /* JSONModelClassProperty.h */,
+				5BD9D60E1B1FE75F00436DC9 /* JSONModelClassProperty.m */,
+				5BD9D60F1B1FE75F00436DC9 /* JSONModelError.h */,
+				5BD9D6101B1FE75F00436DC9 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		5BD9D6111B1FE75F00436DC9 /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D6121B1FE75F00436DC9 /* NSArray+JSONModel.h */,
+				5BD9D6131B1FE75F00436DC9 /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		5BD9D6151B1FE75F00436DC9 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D6161B1FE75F00436DC9 /* JSONAPI.h */,
+				5BD9D6171B1FE75F00436DC9 /* JSONAPI.m */,
+				5BD9D6181B1FE75F00436DC9 /* JSONHTTPClient.h */,
+				5BD9D6191B1FE75F00436DC9 /* JSONHTTPClient.m */,
+				5BD9D61A1B1FE75F00436DC9 /* JSONModel+networking.h */,
+				5BD9D61B1B1FE75F00436DC9 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		5BD9D61C1B1FE75F00436DC9 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D61D1B1FE75F00436DC9 /* JSONKeyMapper.h */,
+				5BD9D61E1B1FE75F00436DC9 /* JSONKeyMapper.m */,
+				5BD9D61F1B1FE75F00436DC9 /* JSONValueTransformer.h */,
+				5BD9D6201B1FE75F00436DC9 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+		5BD9D62F1B201AED00436DC9 /* TKAlert */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D6301B201AED00436DC9 /* TKAlertCenter.h */,
+				5BD9D6311B201AED00436DC9 /* TKAlertCenter.m */,
+				5BD9D6321B201AED00436DC9 /* UIView+TKCategory.h */,
+				5BD9D6331B201AED00436DC9 /* UIView+TKCategory.m */,
+			);
+			path = TKAlert;
+			sourceTree = "<group>";
+		};
+		5BD9D6361B202E3400436DC9 /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				5BCA7E531B1EAC8500AEDD0A /* UMSocial_Sdk_4.2.3 */,
+				5BCA7E8A1B1ED97C00AEDD0A /* UMSocial_Sdk_Extra_Frameworks */,
+				5BCA7E851B1EAD3900AEDD0A /* libz.dylib */,
+				5BCA7E831B1EAD3000AEDD0A /* libstdc++.dylib */,
+				5BCA7E811B1EAD2300AEDD0A /* CoreTelephony.framework */,
+				5BCA7E7F1B1EAD1900AEDD0A /* libsqlite3.dylib */,
+				5BCA7E7D1B1EAD0700AEDD0A /* CoreGraphics.framework */,
+				5BCA7E7B1B1EACFA00AEDD0A /* libiconv.dylib */,
+				5BCA7E791B1EACE800AEDD0A /* Security.framework */,
+				5B10CB761B1C105B006DFA1E /* libsqlite3.0.dylib */,
+				5B10CB741B1C0F8E006DFA1E /* SystemConfiguration.framework */,
+				5B10CAFA1B1C0BDF006DFA1E /* Foundation.framework */,
+				5B10CAF81B1C0B4B006DFA1E /* UIKit.framework */,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		5BD9D6371B20417300436DC9 /* PKRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D6381B20417300436DC9 /* Categories */,
+				5BD9D6411B20417300436DC9 /* Classes */,
+				5BD9D6441B20417300436DC9 /* Modules */,
+				5BD9D6501B20417300436DC9 /* Other Sources */,
+				5BD9D6521B20417300436DC9 /* PKRevealController.h */,
+				5BD9D6531B20417300436DC9 /* PKRevealController.m */,
+			);
+			path = PKRevealController;
+			sourceTree = "<group>";
+		};
+		5BD9D6381B20417300436DC9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D6391B20417300436DC9 /* CAAnimation+PKIdentifier.h */,
+				5BD9D63A1B20417300436DC9 /* CAAnimation+PKIdentifier.m */,
+				5BD9D63B1B20417300436DC9 /* CALayer+PKConvenienceAnimations.h */,
+				5BD9D63C1B20417300436DC9 /* CALayer+PKConvenienceAnimations.m */,
+				5BD9D63D1B20417300436DC9 /* NSObject+PKBlocks.h */,
+				5BD9D63E1B20417300436DC9 /* NSObject+PKBlocks.m */,
+				5BD9D63F1B20417300436DC9 /* UIViewController+PKRevealController.h */,
+				5BD9D6401B20417300436DC9 /* UIViewController+PKRevealController.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		5BD9D6411B20417300436DC9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D6421B20417300436DC9 /* PKRevealControllerView.h */,
+				5BD9D6431B20417300436DC9 /* PKRevealControllerView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5BD9D6441B20417300436DC9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D6451B20417300436DC9 /* PKLayerAnimator */,
+				5BD9D64D1B20417300436DC9 /* PKLog */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5BD9D6451B20417300436DC9 /* PKLayerAnimator */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D6461B20417300436DC9 /* PKAnimating.h */,
+				5BD9D6471B20417300436DC9 /* PKAnimation.h */,
+				5BD9D6481B20417300436DC9 /* PKAnimation.m */,
+				5BD9D6491B20417300436DC9 /* PKLayerAnimator.h */,
+				5BD9D64A1B20417300436DC9 /* PKLayerAnimator.m */,
+				5BD9D64B1B20417300436DC9 /* PKSequentialAnimation.h */,
+				5BD9D64C1B20417300436DC9 /* PKSequentialAnimation.m */,
+			);
+			path = PKLayerAnimator;
+			sourceTree = "<group>";
+		};
+		5BD9D64D1B20417300436DC9 /* PKLog */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D64E1B20417300436DC9 /* PKLog.h */,
+				5BD9D64F1B20417300436DC9 /* PKLog.m */,
+			);
+			path = PKLog;
+			sourceTree = "<group>";
+		};
+		5BD9D6501B20417300436DC9 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5BD9D6511B20417300436DC9 /* PKRevealController-Prefix.pch */,
+			);
+			path = "Other Sources";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -738,38 +994,64 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BD9D6281B1FE75F00436DC9 /* JSONHTTPClient.m in Sources */,
 				5B10CB581B1C0CC5006DFA1E /* AFURLSessionManager.m in Sources */,
+				5BD9D5FB1B1FE2A100436DC9 /* NetworkItemBase.m in Sources */,
+				5BD9D6591B20417300436DC9 /* PKAnimation.m in Sources */,
 				5BA9967B1B1BF1F600B75D94 /* ViewController.m in Sources */,
+				5BD9D65D1B20417300436DC9 /* PKRevealController.m in Sources */,
 				5BCA7E891B1EADE600AEDD0A /* ShareViewController.m in Sources */,
 				5B10CB6B1B1C0CC5006DFA1E /* MBProgressHUD.m in Sources */,
 				5BCA7E521B1EA3B000AEDD0A /* UILabel+ContextSize.m in Sources */,
 				5BA9969B1B1BF3DE00B75D94 /* Singleton.m in Sources */,
 				5B10CB531B1C0CC5006DFA1E /* AFNetworkReachabilityManager.m in Sources */,
+				5BD9D5FE1B1FE2F800436DC9 /* NetworkOperation.m in Sources */,
 				5BC272ED1B1D80AA00EA1AA3 /* FirstCell.m in Sources */,
 				5B10CB5A1B1C0CC5006DFA1E /* FMDatabaseAdditions.m in Sources */,
 				5B10CB821B1C3292006DFA1E /* UIViewController+specialNav.m in Sources */,
 				5B10CB7E1B1C2824006DFA1E /* CommonNavViewController.m in Sources */,
 				5BC272EA1B1D7BA000EA1AA3 /* NextTwoViewController.m in Sources */,
+				5BD9D65B1B20417300436DC9 /* PKSequentialAnimation.m in Sources */,
 				5B10CB6A1B1C0CC5006DFA1E /* MBProgressHUD+Add.m in Sources */,
 				5BA996781B1BF1F600B75D94 /* AppDelegate.m in Sources */,
 				5B10CB551B1C0CC5006DFA1E /* AFURLConnectionOperation.m in Sources */,
 				5B10CB521B1C0CC5006DFA1E /* AFHTTPSessionManager.m in Sources */,
+				5BD9D6581B20417300436DC9 /* PKRevealControllerView.m in Sources */,
 				5B10CB561B1C0CC5006DFA1E /* AFURLRequestSerialization.m in Sources */,
+				5BD9D62E1B1FE77E00436DC9 /* GlobalModel.m in Sources */,
 				5B10CB5C1B1C0CC5006DFA1E /* FMDatabaseQueue.m in Sources */,
+				5BD9D6571B20417300436DC9 /* UIViewController+PKRevealController.m in Sources */,
 				5BA996A01B1BF40B00B75D94 /* Constant.m in Sources */,
+				5BD9D6241B1FE75F00436DC9 /* JSONModelClassProperty.m in Sources */,
 				5BA996751B1BF1F600B75D94 /* main.m in Sources */,
 				5BC272F61B1DB8D600EA1AA3 /* SelectViewController.m in Sources */,
 				5B10CB511B1C0CC5006DFA1E /* AFHTTPRequestOperationManager.m in Sources */,
+				5BD9D6551B20417300436DC9 /* CALayer+PKConvenienceAnimations.m in Sources */,
+				5BD9D62A1B1FE75F00436DC9 /* JSONKeyMapper.m in Sources */,
+				5BD9D65C1B20417300436DC9 /* PKLog.m in Sources */,
+				5BD9D6271B1FE75F00436DC9 /* JSONAPI.m in Sources */,
 				5B10CB5D1B1C0CC5006DFA1E /* FMResultSet.m in Sources */,
+				5BD9D6211B1FE75F00436DC9 /* JSONModel+CoreData.m in Sources */,
+				5BD9D6341B201AED00436DC9 /* TKAlertCenter.m in Sources */,
 				5B10CB5B1B1C0CC5006DFA1E /* FMDatabasePool.m in Sources */,
 				5BC272E71B1D438600EA1AA3 /* NextOneViewController.m in Sources */,
 				5B10CB7A1B1C251A006DFA1E /* HomeViewController.m in Sources */,
 				5BC272F01B1D853000EA1AA3 /* SecondCell.m in Sources */,
 				5B10CB541B1C0CC5006DFA1E /* AFSecurityPolicy.m in Sources */,
 				5BC272F31B1D8EE900EA1AA3 /* SelectCell.m in Sources */,
+				5BD9D6561B20417300436DC9 /* NSObject+PKBlocks.m in Sources */,
+				5BD9D6541B20417300436DC9 /* CAAnimation+PKIdentifier.m in Sources */,
 				5B10CB571B1C0CC5006DFA1E /* AFURLResponseSerialization.m in Sources */,
+				5BD9D6221B1FE75F00436DC9 /* JSONModel.m in Sources */,
+				5BD9D62B1B1FE75F00436DC9 /* JSONValueTransformer.m in Sources */,
+				5BD9D6291B1FE75F00436DC9 /* JSONModel+networking.m in Sources */,
 				5B10CB501B1C0CC5006DFA1E /* AFHTTPRequestOperation.m in Sources */,
+				5BD9D6261B1FE75F00436DC9 /* NSArray+JSONModel.m in Sources */,
+				5BD9D6251B1FE75F00436DC9 /* JSONModelError.m in Sources */,
 				5B10CB591B1C0CC5006DFA1E /* FMDatabase.m in Sources */,
+				5BD9D65A1B20417300436DC9 /* PKLayerAnimator.m in Sources */,
+				5BD9D6231B1FE75F00436DC9 /* JSONModelArray.m in Sources */,
+				5BD9D6351B201AED00436DC9 /* UIView+TKCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

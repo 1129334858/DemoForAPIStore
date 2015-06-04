@@ -22,14 +22,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
+    NSLog(@"沙盒路径：%@",NSHomeDirectory());
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window makeKeyAndVisible];
     ViewController *vc = [[ViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;
     
+//    HomeViewController *homeVc = [[HomeViewController alloc] init];
+//    self.revealController = [PKRevealController revealControllerWithFrontViewController:vc leftViewController:homeVc rightViewController:nil];
+//    self.window.rootViewController = self.revealController;
+    
     //隐藏没有安装的应用程序
-    [UMSocialConfig hiddenNotInstallPlatforms: @[UMShareToQQ, UMShareToQzone, UMShareToWechatTimeline]];
+//    [UMSocialConfig hiddenNotInstallPlatforms: @[UMShareToQQ, UMShareToQzone, UMShareToWechatTimeline]];
     
     [UMSocialData setAppKey:@"53290df956240b6b4a0084b3"];
     

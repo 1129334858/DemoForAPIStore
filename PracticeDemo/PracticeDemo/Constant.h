@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#define kMianAPI @" "
+#define kSuccCode @"s"
+#define kTimeOutCode @"timeOut"
 #define userDatabaseVersion 0.1
 #define IOS7 [[UIDevice currentDevice].systemVersion floatValue]>=7.0
 #define RGB(R,G,B) [UIColor colorWithRed:(R)/255.0 green:(G)/255.0 blue:(B)/255.0 alpha:1]

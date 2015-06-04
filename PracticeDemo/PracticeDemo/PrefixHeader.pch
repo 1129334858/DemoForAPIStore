@@ -13,5 +13,13 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #import "Constant.h"
+#import "UILabel+ContextSize.h"
+#import "UIViewController+specialNav.h"
+#import "CommonNavViewController.h"
+#import "AppDelegate.h"
+#import "Singleton.h"
+#import "AFNetworking.h"
+#import "TKAlertCenter.h"
+#import "PKRevealController.h"
 
 #endif

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-//#import "GlobalModel.h"
+#import "GlobalModel.h"
 #import "MBProgressHUD.h"
 #import "FMDatabase.h"
 
@@ -17,12 +17,13 @@
     NSUInteger loadingCount;
 }
 
-//@property (nonatomic,strong) GlobalModel *globalModel;
+@property (nonatomic,strong) GlobalModel *globalModel;
 @property (nonatomic,strong) FMDatabase *userDB;
 
 + (instancetype)ShareInstance;
 - (void)startLoading;
 - (void)stopLoading;
 - (void)forceToStopLoading;
+- (void)startLoadingInView:(UIView*)view;
 
 @end
