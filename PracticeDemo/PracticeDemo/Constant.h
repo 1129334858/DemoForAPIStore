@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#define kMianAPI @" "
+#define kMianAPI @"http://apis.baidu.com"
 #define kSuccCode @"s"
 #define kTimeOutCode @"timeOut"
 #define userDatabaseVersion 0.1

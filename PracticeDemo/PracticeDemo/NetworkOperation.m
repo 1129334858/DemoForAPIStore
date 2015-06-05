@@ -25,6 +25,8 @@
     
     NSString *urlString = [NSString stringWithFormat:@"%@%@",kMianAPI,_path];
     urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    NSLog(@"\n请求地址:%@\n提交数据:%@",urlString,_parmas);
     AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] init];
     if ([method isEqualToString:@"POST"]) {
         [manager POST:urlString parameters:_parmas constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {

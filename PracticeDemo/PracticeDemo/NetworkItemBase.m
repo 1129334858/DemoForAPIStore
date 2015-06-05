@@ -50,7 +50,7 @@ typedef enum {
 
 #pragma mark - post method
 - (void)startPost{
-    NSMutableDictionary *dic = [[NSMutableDictionary alloc] init];
+    NSMutableDictionary *dic = [NSMutableDictionary dictionaryWithDictionary:_parmas];
     if (_flag!=NWTokenFlag && [Singleton ShareInstance].globalModel.sessionUniqueCode) {
         [dic setObject:[Singleton ShareInstance].globalModel.sessionUniqueCode forKey:@"sessionUniqueCode"];
     }

@@ -9,6 +9,7 @@
 #import "SelectViewController.h"
 #import "UIViewController+specialNav.h"
 #import "Constant.h"
+#import "NewDetailModel.h"
 
 @interface SelectViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
@@ -23,9 +24,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUpUi];
+    [self getData];
     [self createNavigationTitle:@"就业城市"];
     [self createNavigationLeftButton:@"返回" imageName:nil selector:@selector(back)];
     // Do any additional setup after loading the view.
+}
+
+- (void)getData{
+    NSURL *url = [NSURL URLWithString:@"http://apis.baidu.com/yi18/news/list?page=1&limit=20&type=id&id=null"];
+    NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:20];
+    [request setHTTPMethod:@"GET"];
+    [request addValue:@"84bc9cdd16d30a0b96a80c459be1ddb9" forHTTPHeaderField:@"apikey"];
+    
+   [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *connectionError) {
+//       NSString *jsonData = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+       
+       NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
+       NSLog(@"\n返回数据:%@",dic);
+       [self parseJsonData:dic];
+    }];
+}
+
+- (void)parseJsonData:(NSDictionary*)result{
+    NSArray *array = [NewDetailModel arrayOfModelsFromDictionaries:result[@"yi18"] error:nil];
+    if (array) {
+        for (NewDetailModel *model in array) {
+            NSLog(@"\n标题:%@",model.title);
+        }
+    }
+    NSLog(@"array count:%lu",(unsigned long)array.count);
 }
 
 - (void)back{

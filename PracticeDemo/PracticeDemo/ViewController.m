@@ -11,6 +11,7 @@
 #import "UIViewController+specialNav.h"
 #import "NextOneViewController.h"
 #import "ShareViewController.h"
+#import "NWGetNews.h"
 
 @interface ViewController ()
 {
@@ -38,6 +39,12 @@
     [self.view addSubview:_label];
     timer = [NSTimer scheduledTimerWithTimeInterval:.02 target:self selector:@selector(animation1) userInfo:nil repeats:YES];
     [self setUpUi];
+    
+    NWGetNews *list = [[NWGetNews alloc] init];
+    list.complete = ^(id result,BOOL succ){
+    };
+    [list startRequestForNew];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

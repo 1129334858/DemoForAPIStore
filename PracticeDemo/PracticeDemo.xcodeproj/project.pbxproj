@@ -46,6 +46,8 @@
 		5BC272F01B1D853000EA1AA3 /* SecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC272EF1B1D853000EA1AA3 /* SecondCell.m */; };
 		5BC272F31B1D8EE900EA1AA3 /* SelectCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC272F21B1D8EE900EA1AA3 /* SelectCell.m */; };
 		5BC272F61B1DB8D600EA1AA3 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC272F51B1DB8D600EA1AA3 /* SelectViewController.m */; };
+		5BC28C1A1B2132E50072DD8E /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC28C191B2132E50072DD8E /* NewsModel.m */; };
+		5BC28C1D1B2132F70072DD8E /* NewDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC28C1C1B2132F70072DD8E /* NewDetailModel.m */; };
 		5BCA7E521B1EA3B000AEDD0A /* UILabel+ContextSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA7E511B1EA3B000AEDD0A /* UILabel+ContextSize.m */; };
 		5BCA7E6E1B1EAC8500AEDD0A /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA7E541B1EAC8500AEDD0A /* UMSocialLocalizable.strings */; };
 		5BCA7E6F1B1EAC8500AEDD0A /* libUMSocial_Sdk_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCA7E621B1EAC8500AEDD0A /* libUMSocial_Sdk_4.2.3.a */; };
@@ -104,6 +106,7 @@
 		5BD9D65B1B20417300436DC9 /* PKSequentialAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D64C1B20417300436DC9 /* PKSequentialAnimation.m */; };
 		5BD9D65C1B20417300436DC9 /* PKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D64F1B20417300436DC9 /* PKLog.m */; };
 		5BD9D65D1B20417300436DC9 /* PKRevealController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D6531B20417300436DC9 /* PKRevealController.m */; };
+		5BD9D6601B204FE400436DC9 /* NWGetNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9D65F1B204FE400436DC9 /* NWGetNews.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -192,6 +195,10 @@
 		5BC272F21B1D8EE900EA1AA3 /* SelectCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCell.m; sourceTree = "<group>"; };
 		5BC272F41B1DB8D600EA1AA3 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
 		5BC272F51B1DB8D600EA1AA3 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		5BC28C181B2132E50072DD8E /* NewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsModel.h; sourceTree = "<group>"; };
+		5BC28C191B2132E50072DD8E /* NewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsModel.m; sourceTree = "<group>"; };
+		5BC28C1B1B2132F70072DD8E /* NewDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewDetailModel.h; sourceTree = "<group>"; };
+		5BC28C1C1B2132F70072DD8E /* NewDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewDetailModel.m; sourceTree = "<group>"; };
 		5BCA7E501B1EA3B000AEDD0A /* UILabel+ContextSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ContextSize.h"; sourceTree = "<group>"; };
 		5BCA7E511B1EA3B000AEDD0A /* UILabel+ContextSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ContextSize.m"; sourceTree = "<group>"; };
 		5BCA7E551B1EAC8500AEDD0A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
@@ -311,6 +318,8 @@
 		5BD9D6511B20417300436DC9 /* PKRevealController-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PKRevealController-Prefix.pch"; sourceTree = "<group>"; };
 		5BD9D6521B20417300436DC9 /* PKRevealController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKRevealController.h; sourceTree = "<group>"; };
 		5BD9D6531B20417300436DC9 /* PKRevealController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKRevealController.m; sourceTree = "<group>"; };
+		5BD9D65E1B204FE400436DC9 /* NWGetNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWGetNews.h; sourceTree = "<group>"; };
+		5BD9D65F1B204FE400436DC9 /* NWGetNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWGetNews.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -543,6 +552,10 @@
 			children = (
 				5BD9D62C1B1FE77E00436DC9 /* GlobalModel.h */,
 				5BD9D62D1B1FE77E00436DC9 /* GlobalModel.m */,
+				5BC28C181B2132E50072DD8E /* NewsModel.h */,
+				5BC28C191B2132E50072DD8E /* NewsModel.m */,
+				5BC28C1B1B2132F70072DD8E /* NewDetailModel.h */,
+				5BC28C1C1B2132F70072DD8E /* NewDetailModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -706,6 +719,8 @@
 				5BD9D5FA1B1FE2A100436DC9 /* NetworkItemBase.m */,
 				5BD9D5FC1B1FE2F800436DC9 /* NetworkOperation.h */,
 				5BD9D5FD1B1FE2F800436DC9 /* NetworkOperation.m */,
+				5BD9D65E1B204FE400436DC9 /* NWGetNews.h */,
+				5BD9D65F1B204FE400436DC9 /* NWGetNews.m */,
 			);
 			name = netWork;
 			sourceTree = "<group>";
@@ -1029,11 +1044,13 @@
 				5BD9D6551B20417300436DC9 /* CALayer+PKConvenienceAnimations.m in Sources */,
 				5BD9D62A1B1FE75F00436DC9 /* JSONKeyMapper.m in Sources */,
 				5BD9D65C1B20417300436DC9 /* PKLog.m in Sources */,
+				5BC28C1D1B2132F70072DD8E /* NewDetailModel.m in Sources */,
 				5BD9D6271B1FE75F00436DC9 /* JSONAPI.m in Sources */,
 				5B10CB5D1B1C0CC5006DFA1E /* FMResultSet.m in Sources */,
 				5BD9D6211B1FE75F00436DC9 /* JSONModel+CoreData.m in Sources */,
 				5BD9D6341B201AED00436DC9 /* TKAlertCenter.m in Sources */,
 				5B10CB5B1B1C0CC5006DFA1E /* FMDatabasePool.m in Sources */,
+				5BC28C1A1B2132E50072DD8E /* NewsModel.m in Sources */,
 				5BC272E71B1D438600EA1AA3 /* NextOneViewController.m in Sources */,
 				5B10CB7A1B1C251A006DFA1E /* HomeViewController.m in Sources */,
 				5BC272F01B1D853000EA1AA3 /* SecondCell.m in Sources */,
@@ -1044,6 +1061,7 @@
 				5B10CB571B1C0CC5006DFA1E /* AFURLResponseSerialization.m in Sources */,
 				5BD9D6221B1FE75F00436DC9 /* JSONModel.m in Sources */,
 				5BD9D62B1B1FE75F00436DC9 /* JSONValueTransformer.m in Sources */,
+				5BD9D6601B204FE400436DC9 /* NWGetNews.m in Sources */,
 				5BD9D6291B1FE75F00436DC9 /* JSONModel+networking.m in Sources */,
 				5B10CB501B1C0CC5006DFA1E /* AFHTTPRequestOperation.m in Sources */,
 				5BD9D6261B1FE75F00436DC9 /* NSArray+JSONModel.m in Sources */,
