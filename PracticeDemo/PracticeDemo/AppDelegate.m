@@ -40,7 +40,7 @@
     [UMSocialData setAppKey:@"53290df956240b6b4a0084b3"];
     
     //打印日志
-    [UMSocialData openLog:YES];
+//    [UMSocialData openLog:YES];
     
     //支持横竖屏操作
     [UMSocialConfig setSupportedInterfaceOrientations:UIInterfaceOrientationMaskAll];

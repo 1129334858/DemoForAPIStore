@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #define kMianAPI @"http://apis.baidu.com"
+#define kImageURL @"http://www.yi18.net/"
 #define kSuccCode @"s"
 #define kTimeOutCode @"timeOut"
 #define userDatabaseVersion 0.1
@@ -20,6 +22,15 @@
 
 @interface Constant : NSObject
 
+/**
+    UIImageView 处理
+ */
++ (UIImageView *)loadImageViewWithURL:(NSString *)url imageViewFrame:(CGRect)frame superView:(UIView *)view;
++ (UIImageView *)loadImageViewWithURL:(NSString *)url imageViewFrame:(CGRect)frame superView:(UIView *)view contentMode:(UIViewContentMode)contentMode;
++ (void)setImageWithURL:(NSString *)url imageView:(UIImageView *)imageView contentMode:(UIViewContentMode)contentMode;
++ (void)setImageWithURL:(NSString *)url imageView:(UIImageView *)imageView;
++ (void)setImageWithURL:(NSString *)url imageView:(UIImageView *)imageView placeholder:(NSString *)placeholder;
++ (void)setImageWithURL:(NSString *)url imageView:(UIImageView *)imageView placeholder:(NSString *)placeholder autoSize:(BOOL)autoSize;
 
 
 @end
