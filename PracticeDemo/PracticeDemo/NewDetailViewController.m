@@ -75,8 +75,6 @@
         }
     }else if(indexPath.row==1){
         CGSize size = [_newInfoModel.message sizeWithAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:15.0f]}];
-        NSLog(@"总长度:%f,单行长度:%f",size.width,KScreenWidth-30);
-        NSLog(@"hangshu:%f",(size.width/(KScreenWidth-30)));
         return (size.width/(KScreenWidth-30))*90;
     }else{
         return 60;

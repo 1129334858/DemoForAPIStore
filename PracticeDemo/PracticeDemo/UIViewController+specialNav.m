@@ -30,6 +30,7 @@
         [leftBtn setTitle:title forState:UIControlStateNormal];
         [leftBtn setTitleColor:RGB(255, 255, 255) forState:UIControlStateNormal];
         leftBtn.titleLabel.font = [UIFont systemFontOfSize:15.0f];
+        leftBtn.titleEdgeInsets = UIEdgeInsetsMake(0.0, IOS7?-25:-10, 0.0, 0.0);
     }
     if (imageName && [imageName length]>0) {
         [leftBtn setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
@@ -46,11 +47,11 @@
         [rightBtn setTitleColor:RGB(255, 255, 255) forState:UIControlStateNormal];
         [rightBtn setTitle:title forState:UIControlStateNormal];
         rightBtn.titleLabel.font = [UIFont systemFontOfSize:15.0f];
-        rightBtn.titleEdgeInsets = UIEdgeInsetsMake(0.0, 0.0, 0.0, IOS7?-20:-10);
+        rightBtn.titleEdgeInsets = UIEdgeInsetsMake(0.0, 0.0, 0.0, IOS7?-45:-10);
     }
     if (imageName && [imageName length]>0) {
         [rightBtn setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
-        [rightBtn setImageEdgeInsets:UIEdgeInsetsMake(0.0, 0.0, 0.0, IOS7?-30:10)];
+        [rightBtn setImageEdgeInsets:UIEdgeInsetsMake(0.0, 0.0, 0.0, IOS7?-45:-25)];
     }
     UIBarButtonItem *rightBarBtn = [[UIBarButtonItem alloc] initWithCustomView:rightBtn];
     self.navigationItem.rightBarButtonItem = rightBarBtn;

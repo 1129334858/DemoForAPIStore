@@ -13,6 +13,7 @@
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
+        
         _contentLabel = [[UILabel alloc] init];
         _contentLabel.numberOfLines = 0;
         _contentLabel.font = [UIFont systemFontOfSize:15.0f];
@@ -27,7 +28,6 @@
     [contentString addAttribute:NSFontAttributeName value:[UIFont systemFontOfSize:15.0] range:range];
     _contentLabel.attributedText = contentString;
     CGSize sizeForWidth = [_contentLabel contentSizeForWidth];
-    NSLog(@"痴痴缠缠：%f",sizeForWidth.width);
     CGSize sizeForHeight = [_contentLabel contentSizeForHeight];
     _contentLabel.frame = CGRectMake(15, 10, KScreenWidth-30, sizeForWidth.width/(KScreenWidth-30)*90);
 }

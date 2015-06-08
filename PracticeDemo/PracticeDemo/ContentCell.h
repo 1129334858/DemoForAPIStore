@@ -11,7 +11,9 @@
 @interface ContentCell : UITableViewCell
 
 @property (nonatomic,strong) UILabel *contentLabel;
+@property (nonatomic,strong) UITextView *textView;
 
 - (void)insertDataWithContent:(NSString*)content;
+
 
 @end
